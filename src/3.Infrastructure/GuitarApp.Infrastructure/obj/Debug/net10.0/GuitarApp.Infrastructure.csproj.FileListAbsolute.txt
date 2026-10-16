@@ -1,0 +1,15 @@
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\bin\Debug\net10.0\GuitarApp.Infrastructure.deps.json
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\bin\Debug\net10.0\GuitarApp.Infrastructure.dll
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\bin\Debug\net10.0\GuitarApp.Infrastructure.pdb
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\bin\Debug\net10.0\GuitarApp.Core.dll
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\bin\Debug\net10.0\GuitarApp.Core.pdb
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\obj\Debug\net10.0\GuitarApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\obj\Debug\net10.0\GuitarApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\obj\Debug\net10.0\GuitarApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\obj\Debug\net10.0\GuitarApp.Infrastructure.AssemblyInfo.cs
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\obj\Debug\net10.0\GuitarApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\obj\Debug\net10.0\GuitarAp.BF391451.Up2Date
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\obj\Debug\net10.0\GuitarApp.Infrastructure.dll
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\obj\Debug\net10.0\refint\GuitarApp.Infrastructure.dll
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\obj\Debug\net10.0\GuitarApp.Infrastructure.pdb
+C:\Works\Guitar\GuitarApp\src\3.Infrastructure\GuitarApp.Infrastructure\obj\Debug\net10.0\ref\GuitarApp.Infrastructure.dll

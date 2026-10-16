@@ -1,0 +1,38 @@
+<controls:PageBase
+     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:GuitarApp.Maui.Controls"
+             xmlns:viewmodels="clr-namespace:GuitarApp.Core.ViewModels;assembly=GuitarApp.Core"
+             xmlns:models="clr-namespace:GuitarApp.Core.Models;assembly=GuitarApp.Core"
+             x:Class="GuitarApp.Maui.Views.HistoryView"
+             x:DataType="viewmodels:HistoryViewModel"
+             Title="{Binding Title}">
+
+    <Grid Padding="15">
+        <ActivityIndicator IsRunning="{Binding IsBusy}" VerticalOptions="Center" HorizontalOptions="Center" />
+        <CollectionView ItemsSource="{Binding Sessions}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:GuitarSessionDisplay">
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Supprimer" BackgroundColor="Red" Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:HistoryViewModel}}, Path=DeleteSessionCommand}" CommandParameter="{Binding .}" />
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                        <Border StrokeShape="RoundRectangle 8" Margin="0,4" Padding="12" Stroke="LightGray">
+                            <Grid ColumnDefinitions="*, Auto">
+                                <VerticalStackLayout Grid.Column="0">
+                                    <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="15"/>
+                                    <Label Text="{Binding DateSession, StringFormat='{0:dd/MM/yyyy à HH:mm}'}" FontSize="12" TextColor="Gray"/>
+                                </VerticalStackLayout>
+                                <Frame Grid.Column="1" BackgroundColor="{Binding PerformanceColor}" Padding="10,5" CornerRadius="10" HasShadow="False">
+                                    <Label Text="{Binding AverageAccuracy, StringFormat='{0}%'}" TextColor="White" FontAttributes="Bold"/>
+                                </Frame>
+                            </Grid>
+                        </Border>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</controls:PageBase>

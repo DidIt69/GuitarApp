@@ -1,0 +1,13 @@
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\bin\Debug\net10.0\GuitarApp.Core.deps.json
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\bin\Debug\net10.0\GuitarApp.Core.dll
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\bin\Debug\net10.0\GuitarApp.Core.pdb
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\obj\Debug\net10.0\GuitarApp.Core.csproj.AssemblyReference.cache
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\obj\Debug\net10.0\GuitarApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\obj\Debug\net10.0\GuitarApp.Core.AssemblyInfoInputs.cache
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\obj\Debug\net10.0\GuitarApp.Core.AssemblyInfo.cs
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\obj\Debug\net10.0\GuitarApp.Core.csproj.CoreCompileInputs.cache
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\obj\Debug\net10.0\GuitarApp.Core.dll
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\obj\Debug\net10.0\refint\GuitarApp.Core.dll
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\obj\Debug\net10.0\GuitarApp.Core.pdb
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\obj\Debug\net10.0\ref\GuitarApp.Core.dll
+C:\Works\Guitar\GuitarApp\src\2.CoreAndBusiness\GuitarApp.Core\obj\Debug\net10.0\GuitarAp.4FFA5A89.Up2Date

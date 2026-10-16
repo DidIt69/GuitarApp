@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/1.ApplicationUI/">
+    <Project Path="src/1.ApplicationUI/GuitarApp.Maui/GuitarApp.Maui.csproj" />
+  </Folder>
+  <Folder Name="/src/2.CoreAndBusiness/">
+    <Project Path="src/2.CoreAndBusiness/GuitarApp.Core/GuitarApp.Core.csproj" />
+  </Folder>
+  <Folder Name="/src/3.Infrastructure/">
+    <Project Path="src/3.Infrastructure/GuitarApp.Infrastructure/GuitarApp.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GuitarApp.UITests/GuitarApp.UITests.csproj" />
+    <Project Path="tests/GuitarApp.UnitTests/GuitarApp.UnitTests.csproj" />
+  </Folder>
+</Solution>
