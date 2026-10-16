@@ -454,11 +454,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj",
+      "projectUniqueName": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj",
       "projectName": "GuitarApp.Core",
-      "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj",
+      "projectPath": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj",
       "packagesPath": "C:\\Users\\DidierGodat\\.nuget\\packages\\",
-      "outputPath": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\obj\\",
+      "outputPath": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Works\\Guitar\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj": {}
+    "C:\\Works\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj": {}
   },
   "projects": {
-    "C:\\Works\\Guitar\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj": {
+    "C:\\Works\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Works\\Guitar\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
+        "projectUniqueName": "C:\\Works\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
         "projectName": "GuitarApp.Maui",
-        "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
+        "projectPath": "C:\\Works\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
         "packagesPath": "C:\\Users\\DidierGodat\\.nuget\\packages\\",
-        "outputPath": "C:\\Works\\Guitar\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\obj\\",
+        "outputPath": "C:\\Works\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -38,11 +38,11 @@
             "framework": "net10.0-android36.0",
             "targetAlias": "net10.0-android",
             "projectReferences": {
-              "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
-                "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj"
+              "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
+                "projectPath": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj"
               },
-              "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj"
+              "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj"
               }
             }
           },
@@ -50,11 +50,11 @@
             "framework": "net10.0-ios27.0",
             "targetAlias": "net10.0-ios",
             "projectReferences": {
-              "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
-                "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj"
+              "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
+                "projectPath": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj"
               },
-              "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj"
+              "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj"
               }
             }
           },
@@ -62,11 +62,11 @@
             "framework": "net10.0-maccatalyst27.0",
             "targetAlias": "net10.0-maccatalyst",
             "projectReferences": {
-              "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
-                "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj"
+              "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
+                "projectPath": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj"
               },
-              "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj"
+              "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj"
               }
             }
           },
@@ -74,11 +74,11 @@
             "framework": "net10.0-windows10.0.19041",
             "targetAlias": "net10.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
-                "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj"
+              "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
+                "projectPath": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj"
               },
-              "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj"
+              "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj"
               }
             }
           }
@@ -1431,14 +1431,14 @@
         }
       }
     },
-    "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
+    "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj",
+        "projectUniqueName": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj",
         "projectName": "GuitarApp.Core",
-        "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj",
+        "projectPath": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj",
         "packagesPath": "C:\\Users\\DidierGodat\\.nuget\\packages\\",
-        "outputPath": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\obj\\",
+        "outputPath": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1787,14 +1787,14 @@
         }
       }
     },
-    "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj": {
+    "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj",
         "projectName": "GuitarApp.Infrastructure",
-        "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj",
+        "projectPath": "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\GuitarApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\DidierGodat\\.nuget\\packages\\",
-        "outputPath": "C:\\Works\\Guitar\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\obj\\",
+        "outputPath": "C:\\Works\\GuitarApp\\src\\3.Infrastructure\\GuitarApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1817,8 +1817,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
-                "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj"
+              "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj": {
+                "projectPath": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj"
               }
             }
           }

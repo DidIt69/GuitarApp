@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Works\\Guitar\\GuitarApp\\tests\\GuitarApp.UITests\\GuitarApp.UITests.csproj": {}
+    "C:\\Works\\GuitarApp\\tests\\GuitarApp.UITests\\GuitarApp.UITests.csproj": {}
   },
   "projects": {
-    "C:\\Works\\Guitar\\GuitarApp\\tests\\GuitarApp.UITests\\GuitarApp.UITests.csproj": {
+    "C:\\Works\\GuitarApp\\tests\\GuitarApp.UITests\\GuitarApp.UITests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Works\\Guitar\\GuitarApp\\tests\\GuitarApp.UITests\\GuitarApp.UITests.csproj",
+        "projectUniqueName": "C:\\Works\\GuitarApp\\tests\\GuitarApp.UITests\\GuitarApp.UITests.csproj",
         "projectName": "GuitarApp.UITests",
-        "projectPath": "C:\\Works\\Guitar\\GuitarApp\\tests\\GuitarApp.UITests\\GuitarApp.UITests.csproj",
+        "projectPath": "C:\\Works\\GuitarApp\\tests\\GuitarApp.UITests\\GuitarApp.UITests.csproj",
         "packagesPath": "C:\\Users\\DidierGodat\\.nuget\\packages\\",
-        "outputPath": "C:\\Works\\Guitar\\GuitarApp\\tests\\GuitarApp.UITests\\obj\\",
+        "outputPath": "C:\\Works\\GuitarApp\\tests\\GuitarApp.UITests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

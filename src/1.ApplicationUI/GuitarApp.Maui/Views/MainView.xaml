@@ -1,19 +1,13 @@
 ﻿<controls:PageBase 
- xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:controls="clr-namespace:GuitarApp.Maui.Controls"
-             xmlns:viewmodels="clr-namespace:GuitarApp.Core.ViewModels;assembly=GuitarApp.Core"
-             xmlns:models="clr-namespace:GuitarApp.Core.Models;assembly=GuitarApp.Core"
-             xmlns:converters="clr-namespace:GuitarApp.Maui.Converters"
-             x:Class="GuitarApp.Maui.Views.MainView"
-             x:DataType="viewmodels:MainViewModel"
-             Title="{Binding Title}">
-
-    <controls:PageBase.Resources>
-        <ResourceDictionary>
-            <converters:ScoreToProgressConverter x:Key="ScoreToProgressConverter" />
-        </ResourceDictionary>
-    </controls:PageBase.Resources>
+    xmlns:controls="clr-namespace:GuitarApp.Maui.Controls"
+    xmlns:viewmodels="clr-namespace:GuitarApp.Core.ViewModels;assembly=GuitarApp.Core"
+    xmlns:models="clr-namespace:GuitarApp.Core.Models;assembly=GuitarApp.Core"
+    x:Class="GuitarApp.Maui.Views.MainView"
+    x:DataType="viewmodels:MainViewModel"
+    Title="{Binding Title}"
+>
 
     <Grid RowDefinitions="Auto, *" Padding="15" RowSpacing="15">
         <VerticalStackLayout Grid.Row="0" Spacing="12" HorizontalOptions="Center">
@@ -25,49 +19,28 @@
             <Frame BorderColor="{Binding TuningIndicatorColor}" CornerRadius="12" Padding="15" WidthRequest="330" HasShadow="True">
                 <VerticalStackLayout Spacing="8" HorizontalOptions="Center">
                     <Label Text="{Binding StatusMessage}" TextColor="{Binding TuningIndicatorColor}" FontAttributes="Bold" HorizontalOptions="Center"/>
-                    <Grid HeightRequest="130" WidthRequest="300" HorizontalOptions="Center">
 
-                        <!-- 1. L'arc de cercle de fond (Cadran d'accordage) -->
-                        <BoxView Color="LightGray" HeightRequest="2" VerticalOptions="End" Margin="0,0,0,15"/>
-                        <BoxView Color="#2B7A4B" HeightRequest="4" WidthRequest="40" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,14"/>
-
-                        <!-- 2. L'aiguille physique (Une ligne verticale noire/colorée) -->
-                        <!-- Son point d'ancrage de rotation est fixé tout en bas (AnchorY = 1.0) -->
-                        <!-- Sa propriété Rotation est directement liée à vos Cents d'erreur (multiplié par un ratio de 1.2) -->
-                        <BoxView Color="{Binding TuningIndicatorColor}" 
-             WidthRequest="4" 
-             HeightRequest="100" 
-             VerticalOptions="End" 
-             HorizontalOptions="Center"
-             AnchorY="1.0"
-             Margin="0,0,0,15"
-             Rotation="{Binding CentsError}"/>
-
-                        <!-- 3. Le pivot central (Le bouton au centre) -->
-                        <Ellipse Fill="{Binding TuningIndicatorColor}" WidthRequest="12" HeightRequest="12" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,9"/>
+                    <!-- Aiguille native GPU ultra-stable anti-obsolescence -->
+                    <Grid HeightRequest="120" WidthRequest="290" HorizontalOptions="Center">
+                        <BoxView Color="LightGray" HeightRequest="2" VerticalOptions="End" Margin="0,0,0,10"/>
+                        <BoxView Color="#2B7A4B" HeightRequest="4" WidthRequest="35" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,9"/>
+                        <BoxView Color="{Binding TuningIndicatorColor}" WidthRequest="4" HeightRequest="95" VerticalOptions="End" HorizontalOptions="Center" AnchorY="1.0" Margin="0,0,0,10" Rotation="{Binding CentsError}"/>
+                        <Ellipse Fill="{Binding TuningIndicatorColor}" WidthRequest="10" HeightRequest="10" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,5"/>
                     </Grid>
 
-                    <!--<GraphicsView HeightRequest="120" WidthRequest="290" HorizontalOptions="Center">
-                        <GraphicsView.Drawable>
-                            <controls:TunerDrawable CentsError="{Binding CentsError}" IndicatorColor="{Binding TuningIndicatorColor}" />
-                        </GraphicsView.Drawable>
-                    </GraphicsView>-->
-                    <Label Text="{Binding DetectedNote}" FontSize="44" FontAttributes="Bold" TextColor="{Binding TuningIndicatorColor}" HorizontalOptions="Center" Margin="0,-10,0,0"/>
+                    <Label Text="{Binding DetectedNote}" FontSize="44" FontAttributes="Bold" TextColor="{Binding TuningIndicatorColor}" HorizontalOptions="Center" Margin="0,-5,0,0"/>
                     <HorizontalStackLayout HorizontalOptions="Center" Spacing="15">
                         <Label Text="{Binding CurrentFrequency, StringFormat='{0} Hz'}" TextColor="DimGray"/>
                         <Label Text="{Binding CentsError, StringFormat='{0} cts'}" FontAttributes="Bold" TextColor="{Binding TuningIndicatorColor}"/>
                     </HorizontalStackLayout>
-                    <GraphicsView x:Name="WaveformCanvas" HeightRequest="60" WidthRequest="290" HorizontalOptions="Center">
+
+                    <!-- Oscilloscope dynamique vectoriel régulé -->
+                    <GraphicsView x:Name="WaveformCanvas" HeightRequest="50" WidthRequest="290" HorizontalOptions="Center">
                         <GraphicsView.Drawable>
                             <controls:WaveformDrawable Samples="{Binding WaveformBuffer}" StrokeColor="{Binding TuningIndicatorColor}" />
                         </GraphicsView.Drawable>
                     </GraphicsView>
-                    
-                    <!--<GraphicsView HeightRequest="50" WidthRequest="290" HorizontalOptions="Center">
-                        <GraphicsView.Drawable>
-                            <controls:WaveformDrawable Samples="{Binding WaveformBuffer}" StrokeColor="{Binding TuningIndicatorColor}" />
-                        </GraphicsView.Drawable>
-                    </GraphicsView>-->
+
                     <Label Text="{Binding DetectedChordNotes}" FontSize="20" FontAttributes="Bold" TextColor="DarkSlateGray" HorizontalOptions="Center" Margin="0,5,0,0"/>
                 </VerticalStackLayout>
             </Frame>

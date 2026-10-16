@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oMI7qM60CjA=",
+  "dgSpecHash": "AO14+KXrfXY=",
   "success": true,
-  "projectFilePath": "C:\\Works\\Guitar\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj",
+  "projectFilePath": "C:\\Works\\GuitarApp\\src\\2.CoreAndBusiness\\GuitarApp.Core\\GuitarApp.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DidierGodat\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
     "C:\\Users\\DidierGodat\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xPOSUoZo/88=",
+  "dgSpecHash": "QN71R9C1YdI=",
   "success": true,
-  "projectFilePath": "C:\\Works\\Guitar\\GuitarApp\\tests\\GuitarApp.UITests\\GuitarApp.UITests.csproj",
+  "projectFilePath": "C:\\Works\\GuitarApp\\tests\\GuitarApp.UITests\\GuitarApp.UITests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DidierGodat\\.nuget\\packages\\appium.webdriver\\9.0.0\\appium.webdriver.9.0.0.nupkg.sha512",
     "C:\\Users\\DidierGodat\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",

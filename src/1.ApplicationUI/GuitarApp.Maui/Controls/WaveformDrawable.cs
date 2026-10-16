@@ -1,37 +1,21 @@
 ﻿using Microsoft.Maui.Controls;
 using Microsoft.Maui.Graphics;
-using System;
 
 namespace GuitarApp.Maui.Controls;
 
 public class WaveformDrawable : BindableObject, IDrawable
 {
-    // 💡 AJOUT : On attache un cycle de rappel 'OnSamplesChanged' lors de la modification du buffer
-    public static readonly BindableProperty SamplesProperty =
-        BindableProperty.Create(
-            nameof(Samples),
-            typeof(float[]),
-            typeof(WaveformDrawable),
-            null,
-            propertyChanged: OnSamplesChanged);
-
-    public static readonly BindableProperty StrokeColorProperty =
-        BindableProperty.Create(nameof(StrokeColor), typeof(string), typeof(WaveformDrawable), "#808080");
+    public static readonly BindableProperty SamplesProperty = BindableProperty.Create(nameof(Samples), typeof(float[]), typeof(WaveformDrawable), null, propertyChanged: OnSamplesChanged);
+    public static readonly BindableProperty StrokeColorProperty = BindableProperty.Create(nameof(StrokeColor), typeof(string), typeof(WaveformDrawable), "#808080");
 
     public float[] Samples { get => (float[])GetValue(SamplesProperty); set => SetValue(SamplesProperty, value); }
     public string StrokeColor { get => (string)GetValue(StrokeColorProperty); set => SetValue(StrokeColorProperty, value); }
 
-    // 💡 CETTE MÉTHODE DEMANDE À MAUI DE REDESSINER LA VAGUE AUDIO EN DIRECT
     private static void OnSamplesChanged(BindableObject bindable, object oldValue, object newValue)
     {
-        if (bindable is WaveformDrawable waveformDrawable)
-        {
-            // Indique au framework MAUI que le contenu visuel doit être recalculé au prochain cycle d'écran
-            waveformDrawable.OnPropertyChanged(nameof(Samples));
-        }
+        if (bindable is WaveformDrawable w) w.OnPropertyChanged(nameof(Samples));
     }
 
-    // Le moteur de tracé vectoriel Draw(...) reste strictement identique
     public void Draw(ICanvas canvas, RectF dirtyRect)
     {
         float width = dirtyRect.Width; float height = dirtyRect.Height; float centerY = height / 2f;
@@ -41,7 +25,7 @@ public class WaveformDrawable : BindableObject, IDrawable
         if (Samples == null || Samples.Length == 0) return;
 
         PathF path = new(); float xStep = width / (Samples.Length - 1);
-        path.MoveTo(0, centerY + (Samples[0] * centerY));
+        path.MoveTo(0, centerY + (Samples[0] * (centerY - 3f)));
         for (int i = 1; i < Samples.Length; i++) path.LineTo(i * xStep, centerY + (Samples[i] * (centerY - 3f)));
         canvas.DrawPath(path);
     }

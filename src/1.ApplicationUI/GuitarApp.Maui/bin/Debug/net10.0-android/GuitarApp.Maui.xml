@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GuitarApp.Maui</name>
+    </assembly>
+    <members>
+        <member name="M:GuitarApp.Maui.Controls.PageBase.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:GuitarApp.Maui.Controls.PageBase.#ctor(GuitarApp.Core.ViewModels.ViewModelBase)">
+            <summary>
+            
+            </summary>
+            <param name="viewModel"></param>
+        </member>
+        <member name="M:GuitarApp.Maui.Controls.PageBase.OnAppearing">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="M:GuitarApp.Maui.Services.NavigationService.TypeOfViewModelToPage(System.Type)">
+            <summary>
+            Dictionnaire de correspondance IoC (Mapping) entre les ViewModels et les Vues physiques
+            </summary>
+        </member>
+        <member name="T:GuitarApp.Maui.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>

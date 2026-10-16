@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ubEC9oFW+I=",
+  "dgSpecHash": "7HR6r435q28=",
   "success": true,
-  "projectFilePath": "C:\\Works\\Guitar\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
+  "projectFilePath": "C:\\Works\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DidierGodat\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512",
     "C:\\Users\\DidierGodat\\.nuget\\packages\\googlegson\\2.13.1.1\\googlegson.2.13.1.1.nupkg.sha512",
@@ -163,9 +163,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Newtonsoft.Json' 9.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
+      "projectPath": "C:\\Works\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Works\\Guitar\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
+      "filePath": "C:\\Works\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net10.0-android",
@@ -198,9 +198,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'SQLiteNetExtensions 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0-ios27.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Works\\Guitar\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
+      "projectPath": "C:\\Works\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Works\\Guitar\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
+      "filePath": "C:\\Works\\GuitarApp\\src\\1.ApplicationUI\\GuitarApp.Maui\\GuitarApp.Maui.csproj",
       "libraryId": "SQLiteNetExtensions",
       "targetGraphs": [
         "net10.0-ios"

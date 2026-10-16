@@ -1,12 +1,13 @@
-<controls:PageBase
-     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<controls:PageBase 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:controls="clr-namespace:GuitarApp.Maui.Controls"
-             xmlns:viewmodels="clr-namespace:GuitarApp.Core.ViewModels;assembly=GuitarApp.Core"
-             xmlns:models="clr-namespace:GuitarApp.Core.Models;assembly=GuitarApp.Core"
-             x:Class="GuitarApp.Maui.Views.HistoryView"
-             x:DataType="viewmodels:HistoryViewModel"
-             Title="{Binding Title}">
+    xmlns:controls="clr-namespace:GuitarApp.Maui.Controls"
+    xmlns:viewmodels="clr-namespace:GuitarApp.Core.ViewModels;assembly=GuitarApp.Core"
+    xmlns:models="clr-namespace:GuitarApp.Core.Models;assembly=GuitarApp.Core"
+    x:Class="GuitarApp.Maui.Views.HistoryView"
+    x:DataType="viewmodels:HistoryViewModel"
+    Title="{Binding Title}"
+>
 
     <Grid Padding="15">
         <ActivityIndicator IsRunning="{Binding IsBusy}" VerticalOptions="Center" HorizontalOptions="Center" />

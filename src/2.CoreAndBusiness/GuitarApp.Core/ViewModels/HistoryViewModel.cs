@@ -1,23 +1,26 @@
-using System;
-using System.Collections.Generic;
+#region Imports
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using GuitarApp.Core.Models;
 using GuitarApp.Core.Services;
+#endregion
 
 namespace GuitarApp.Core.ViewModels;
 
 public partial class HistoryViewModel : ViewModelBase
 {
+    #region Services
     private readonly IRepository<GuitarSession> _sessionRepository;
     private readonly IRepository<DetectedNoteLog> _noteRepository;
     private readonly ITelemetryService _telemetryService;
+    #endregion
 
+    #region Properties
     [ObservableProperty] private ObservableCollection<GuitarSessionDisplay> _sessions = new();
+    #endregion
 
+    #region Constructors
     public HistoryViewModel(
         IRepository<GuitarSession> sessionRepository,
         IRepository<DetectedNoteLog> noteRepository,
@@ -28,7 +31,14 @@ public partial class HistoryViewModel : ViewModelBase
         _telemetryService = telemetryService;
         Title = "Historique & Performances";
     }
+    #endregion
 
+    #region Override Methods
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="parameter"></param>
+    /// <returns></returns>
     public override async Task InitializeAsync(object? parameter)
     {
         IsBusy = true;
@@ -59,9 +69,14 @@ public partial class HistoryViewModel : ViewModelBase
         {
             _telemetryService.LogError("Erreur historique", ex);
         }
-        finally { IsBusy = false; }
+        finally 
+        { 
+            IsBusy = false; 
+        }
     }
+    #endregion
 
+    #region Commands
     [RelayCommand]
     private async Task DeleteSessionAsync(GuitarSessionDisplay sessionDisplay)
     {
@@ -74,4 +89,5 @@ public partial class HistoryViewModel : ViewModelBase
             Sessions.Remove(sessionDisplay);
         }
     }
+    #endregion
 }
